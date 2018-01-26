@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: 7df8de5cda956784aa20c155785d7e8d
+  productGUID: b38cc221d02b0c54a8aa4cfb78e5bdf7
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -12,7 +12,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Game Jame 2018 Prototype
+  productName: Global Game Jam Prototype 2018
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -558,14 +558,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Game Jame 2018 Prototype
+  metroPackageName: Global Game Jam Prototype 2018
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Game Jame 2018 Prototype
+  metroApplicationDescription: Global Game Jam Prototype 2018
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -634,8 +634,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 23aab09e-2007-43c7-9e0d-14333b9757ba
-  projectName: Game Jame 2018 Prototype
+  cloudProjectId: da045b52-8e11-46df-964e-cd98d51d847d
+  projectName: Global Game Jam Prototype 2018
   organizationId: pcmau5
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
