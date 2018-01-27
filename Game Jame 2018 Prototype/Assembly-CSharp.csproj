@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Brendo\CityAttributes.cs" />
      <Compile Include="Assets\Scripts\HeatBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\PanelScript.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
