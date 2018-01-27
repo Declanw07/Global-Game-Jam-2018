@@ -47,7 +47,7 @@ public class HeatBehaviourScript : MonoBehaviour {
         currentHeatColour = Color.Lerp(lowestHeatColour, highestHeatColour, heatPercentage);
         playerScript.heatBar.color = currentHeatColour;
 
-        Debug.Log(heatPercentage);
+        //Debug.Log(heatPercentage);
 
         //playerScript.UpdateHeatBarScale(heatPercentage); // Taken out for now will fix tomorrow.
 
