@@ -32,7 +32,7 @@ public class CityClass : MonoBehaviour {
     {
         if (!isSelected)
         {
-            if (influenceClass.currentInfluence == 100)
+            if (influenceClass.currentInfluence == 100 && inRange)
             {
                 Debug.Log("City Selected");
                 isSelected = true;
