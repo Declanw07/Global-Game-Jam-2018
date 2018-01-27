@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class RadarScript : MonoBehaviour {
 
     Image radar;
-    static float lerpTime = 0.0f;
+    float lerpTime = 0.0f;
 
     float minimumSize = 1.0f;
     float maximumSize = 700.0f;
@@ -30,15 +30,21 @@ public class RadarScript : MonoBehaviour {
         radar.rectTransform.sizeDelta = new Vector2(Mathf.Lerp(minimumSize, maximumSize, lerpTime), Mathf.Lerp(minimumSize, maximumSize, lerpTime));
         lerpTime += 1.0f * Time.deltaTime;
 
-        // Reverse the Target and Starting values to invert the movement. (E.G: Change from big to small to small to big)
         if(lerpTime > 2.0f)
         {
-            float temp = maximumSize;
-            maximumSize = minimumSize;
-            minimumSize = temp;
-            lerpTime = 0.0F;
-            
+            radar.rectTransform.sizeDelta = new Vector2(minimumSize, minimumSize);
+            lerpTime = 0.0f;
         }
+
+        // Reverse the Target and Starting values to invert the movement. (E.G: Change from big to small to small to big)
+        //if(lerpTime > 2.0f)
+        //{
+        //    float temp = maximumSize;
+        //    maximumSize = minimumSize;
+        //    minimumSize = temp;
+        //    lerpTime = 0.0F;
+            
+        //}
 		
 	}
 
