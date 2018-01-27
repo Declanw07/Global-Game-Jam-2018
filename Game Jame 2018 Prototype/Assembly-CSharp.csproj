@@ -53,8 +53,12 @@
   <ItemGroup>
      <Compile Include="Assets\Brendo\CityAttributes.cs" />
      <Compile Include="Assets\Scripts\HeatBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\Menu\LoadGame.cs" />
+     <Compile Include="Assets\Scripts\Menu\QuitGame.cs" />
+     <Compile Include="Assets\Scripts\Menu\SelectInput.cs" />
      <Compile Include="Assets\Scripts\PanelScript.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
+     <None Include="Assets\jmh_psychedelic_caps\Personal Use Only-User Terms Agreement.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -117,6 +121,9 @@
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.Mono.Cecil">
+ <HintPath>C:/Users/Brendan/Documents/GitHub/Global-Game-Jam-2018/Game Jame 2018 Prototype/Assets/UnityVS/Editor/SyntaxTree.Mono.Cecil.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/Brendan/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
