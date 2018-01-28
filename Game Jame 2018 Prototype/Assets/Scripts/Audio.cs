@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Audio : MonoBehaviour {
+public class Music : MonoBehaviour {
 
     public Slider mVolume;
     public AudioSource mainMusic;
-    public AudioClip[] SFX;
-    public AudioClip[] Music;
-    public AudioClip[] News;
-    public AudioClip[] VoiceLines;
+    
+    public AudioClip[] Tracks;
+    
 
     // Use this for initialization
     void Start ()
@@ -19,7 +18,9 @@ public class Audio : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
         mainMusic.volume = mVolume.value;
+
 	}
 }

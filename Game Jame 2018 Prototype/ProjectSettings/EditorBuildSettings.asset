@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CabinScene.unity
     guid: 67c64ddbedd951c4daa812730cbdfd35
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 1da518476ec8b00449786736f2ac62c4

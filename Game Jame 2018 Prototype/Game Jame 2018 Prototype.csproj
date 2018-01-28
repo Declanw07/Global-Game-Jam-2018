@@ -304,6 +304,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Audio.cs" />
+    <Compile Include="Assets\Scripts\AudioScripts\Dialog.cs" />
+    <Compile Include="Assets\Scripts\AudioScripts\Music.cs" />
+    <Compile Include="Assets\Scripts\AudioScripts\SFX.cs" />
     <Compile Include="Assets\Scripts\CityClass.cs" />
     <Compile Include="Assets\Scripts\HeatBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\InfluenceClass.cs" />
@@ -312,6 +315,7 @@
     <Compile Include="Assets\Scripts\Menu\LoadGame.cs" />
     <Compile Include="Assets\Scripts\Menu\QuitGame.cs" />
     <Compile Include="Assets\Scripts\Menu\SelectInput.cs" />
+    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\RadarScript.cs" />
   </ItemGroup>
