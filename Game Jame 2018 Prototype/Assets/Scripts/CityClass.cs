@@ -6,6 +6,8 @@ public class CityClass : MonoBehaviour {
 
     InfluenceClass influenceClass;
 
+    public GameObject radarObject;
+
 
     public bool inRange = false;
 
@@ -30,11 +32,12 @@ public class CityClass : MonoBehaviour {
     {
         if (!isSelected)
         {
-            if (influenceClass.currentInfluence == 100)
+            if (influenceClass.currentInfluence == 100 && inRange)
             {
                 Debug.Log("City Selected");
                 isSelected = true;
                 isOwned = true;
+                SetRadarActive();
             }
         }
         else
@@ -42,5 +45,10 @@ public class CityClass : MonoBehaviour {
             Debug.Log("Either city was already selected or not enough influence");
             isSelected = false;
         }
+    }
+
+    private void SetRadarActive()
+    {
+        radarObject.SetActive(true);
     }
 }
