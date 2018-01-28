@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game Jame 2018 Prototype", "Assembly-CSharp-firstpass.csproj", "{AC7FA40D-6512-A65A-1CB2-59176929B9A5}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game Jame 2018 Prototype", "Assembly-CSharp.csproj", "{14EB1BDA-07B3-7193-E29D-FB4129FE3F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game Jame 2018 Prototype", "Assembly-CSharp-Editor-firstpass.csproj", "{46BB205B-EBFB-29F4-6E63-4541FE68C454}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC7FA40D-6512-A65A-1CB2-59176929B9A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7FA40D-6512-A65A-1CB2-59176929B9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7FA40D-6512-A65A-1CB2-59176929B9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7FA40D-6512-A65A-1CB2-59176929B9A5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{14EB1BDA-07B3-7193-E29D-FB4129FE3F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{14EB1BDA-07B3-7193-E29D-FB4129FE3F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14EB1BDA-07B3-7193-E29D-FB4129FE3F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14EB1BDA-07B3-7193-E29D-FB4129FE3F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46BB205B-EBFB-29F4-6E63-4541FE68C454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BB205B-EBFB-29F4-6E63-4541FE68C454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BB205B-EBFB-29F4-6E63-4541FE68C454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BB205B-EBFB-29F4-6E63-4541FE68C454}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -51,14 +51,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Brendo\Cabin.cs" />
      <Compile Include="Assets\Brendo\CityAttributes.cs" />
+     <Compile Include="Assets\Scripts\CityClass.cs" />
      <Compile Include="Assets\Scripts\HeatBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\InfluenceClass.cs" />
+     <Compile Include="Assets\Scripts\InfluenceManager.cs" />
+     <Compile Include="Assets\Scripts\MainGame\SpriteChanger.cs" />
      <Compile Include="Assets\Scripts\Menu\LoadGame.cs" />
      <Compile Include="Assets\Scripts\Menu\QuitGame.cs" />
      <Compile Include="Assets\Scripts\Menu\SelectInput.cs" />
-     <Compile Include="Assets\Scripts\PanelScript.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
-     <None Include="Assets\jmh_psychedelic_caps\Personal Use Only-User Terms Agreement.txt" />
+     <Compile Include="Assets\Scripts\RadarScript.cs" />
+     <None Include="Assets\Miscellaneous\jmh_psychedelic_caps\Personal Use Only-User Terms Agreement.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -123,7 +128,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="SyntaxTree.Mono.Cecil">
- <HintPath>C:/Users/Brendan/Documents/GitHub/Global-Game-Jam-2018/Game Jame 2018 Prototype/Assets/UnityVS/Editor/SyntaxTree.Mono.Cecil.dll</HintPath>
+ <HintPath>C:/Users/Brendan/Documents/GitHub/Global-Game-Jam-2018/Game Jame 2018 Prototype/Assets/Miscellaneous/UnityVS/Editor/SyntaxTree.Mono.Cecil.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/Brendan/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
@@ -146,6 +151,10 @@
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/Brendan/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{AC7FA40D-6512-A65A-1CB2-59176929B9A5}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

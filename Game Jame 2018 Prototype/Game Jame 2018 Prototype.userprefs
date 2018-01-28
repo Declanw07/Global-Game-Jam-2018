@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Brendo\CityAttributes.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Brendo\Cabin.cs">
     <Files>
       <File FileName="Assets\Brendo\CityAttributes.cs" Line="22" Column="44" />
+      <File FileName="Assets\Brendo\Cabin.cs" Line="27" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
