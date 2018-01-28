@@ -20,6 +20,7 @@ public class RadarScript : MonoBehaviour {
         // Fetch the image component and then set the radius of the trigger to half the image width.
         radar = this.GetComponent<Image>();
         this.GetComponent<CircleCollider2D>().radius = maximumSize / 2;
+        this.transform.parent.transform.position = new Vector3(this.transform.parent.transform.position.x, this.transform.parent.transform.position.y + 0.1f, this.transform.parent.transform.position.z);
 
 	}
 	
