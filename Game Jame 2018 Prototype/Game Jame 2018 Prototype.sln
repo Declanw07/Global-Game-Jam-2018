@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game Jame 2018 Prototype", "Game Jame 2018 Prototype.csproj", "{304122F4-535E-D61D-39FB-63437B00BD99}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game Jame 2018 Prototype.Plugins", "Game Jame 2018 Prototype.Plugins.csproj", "{9E7CB150-C73A-3260-D27D-6284F7B8D4A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game Jame 2018 Prototype", "Game Jame 2018 Prototype.csproj", "{304122F4-535E-D61D-39FB-63437B00BD99}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game Jame 2018 Prototype.Editor.Plugins", "Game Jame 2018 Prototype.Editor.Plugins.csproj", "{012B438D-2839-FE82-96DC-2EE9F275F07A}"
 EndProject
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{304122F4-535E-D61D-39FB-63437B00BD99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{304122F4-535E-D61D-39FB-63437B00BD99}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{304122F4-535E-D61D-39FB-63437B00BD99}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{304122F4-535E-D61D-39FB-63437B00BD99}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9E7CB150-C73A-3260-D27D-6284F7B8D4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9E7CB150-C73A-3260-D27D-6284F7B8D4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E7CB150-C73A-3260-D27D-6284F7B8D4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E7CB150-C73A-3260-D27D-6284F7B8D4A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304122F4-535E-D61D-39FB-63437B00BD99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304122F4-535E-D61D-39FB-63437B00BD99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304122F4-535E-D61D-39FB-63437B00BD99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304122F4-535E-D61D-39FB-63437B00BD99}.Release|Any CPU.Build.0 = Release|Any CPU
 		{012B438D-2839-FE82-96DC-2EE9F275F07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{012B438D-2839-FE82-96DC-2EE9F275F07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{012B438D-2839-FE82-96DC-2EE9F275F07A}.Release|Any CPU.ActiveCfg = Release|Any CPU

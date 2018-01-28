@@ -1190,13 +1190,13 @@ RectTransform:
   - {fileID: 227439057}
   - {fileID: 567649129}
   - {fileID: 592014980}
-  - {fileID: 1322527784}
-  - {fileID: 1895176825}
-  - {fileID: 1750294523}
   - {fileID: 963281750}
-  - {fileID: 1660652774}
-  - {fileID: 139595246}
+  - {fileID: 1322527784}
   - {fileID: 1546758946}
+  - {fileID: 1660652774}
+  - {fileID: 1750294523}
+  - {fileID: 1895176825}
+  - {fileID: 139595246}
   m_Father: {fileID: 779095756}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3593,6 +3593,11 @@ Prefab:
     - target: {fileID: 1654253248828392, guid: 7f4a7158487958c4aad0df708f95fbde, type: 2}
       propertyPath: m_Name
       value: City_Prefab (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114495209897574024, guid: 7f4a7158487958c4aad0df708f95fbde,
+        type: 2}
+      propertyPath: favourValue
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7f4a7158487958c4aad0df708f95fbde, type: 2}
